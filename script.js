@@ -31,7 +31,13 @@ function createTable() {
 
 function agregarColumna() {
 
-    let nombreCol = document.getElementById('input1').value;
+    //let nombreCol = document.getElementById('input1').value;
 
 
+}
+
+function ShowSelected() {
+    /* Para obtener el valor */
+    var cod = document.getElementById("cars").value;
+    console.log(cod);
 }
